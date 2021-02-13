@@ -10,12 +10,12 @@ api: 3.0.0
 
 # Commands
 commands:
- hello:
-  description: Say hello to yourself!
-  usage: Incorrect Usage!\nUsage: /hello
-  permission: hello.command
+ feed:
+  description: Feed yourself!
+  usage: Incorrect Usage!\nUsage: /feed
+  permission: feed.command
   
 # Permissions
 permissions:
- hello.command
+ feed.command
   default: true
