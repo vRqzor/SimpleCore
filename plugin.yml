@@ -1,0 +1,21 @@
+
+# Plugin Information
+name: SimpleCore
+author: vRqzor
+main: vRqzor\SimpleCore\Main
+
+# Versions
+version: 1.0.0
+api: 3.0.0
+
+# Commands
+commands:
+ hello:
+  description: Say hello to yourself!
+  usage: Incorrect Usage!\nUsage: /hello
+  permission: hello.command
+  
+# Permissions
+permissions:
+ hello.command
+  default: true
